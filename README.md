@@ -21,5 +21,6 @@ pip install backports.lzma`
 `mv gaviota-1.0-linux/gtb/* Gaviota`
 `rm -r gaviota-1.0-linux`
 
+download and extract the zipfile from https://drive.google.com/open?id=1eAZUC8NeWIk4l1UU8HVeL4HjnC0g9hsY
 
-
+`mkdir Models`
