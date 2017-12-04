@@ -1,0 +1,28 @@
+#!/usr/bin/env bash -e
+
+# Arguments
+maxdepth=${1:-1}
+
+awk -F'[; ] *' -v maxdepth=$maxdepth '
+($8 <= maxdepth) {
+        print $6, $8, $1, $2, $3, $4, $9
+}' |
+
+#
+#  Run each through perft and check result
+#
+while read id depth pos1 pos2 pos3 pos4 expected
+do
+        echo -n $id $depth $pos1 $pos2 $pos3 $pos4 $expected ""
+
+        result=`echo $pos1 $pos2 $pos3 $pos4 | python Tools/perft.py $depth`
+
+        if [ "$result" -eq "$expected" ]
+        then
+                echo $result OK
+        else
+                echo $result FAILED
+                exit 10 # stop when failing
+        fi
+done
+
