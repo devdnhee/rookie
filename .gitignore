@@ -99,3 +99,14 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# data
+Gaviota
+Models/*
+nn
+*.cpkl
+*.epd
+*.txt
+dataset/*
+Analysis
+learn/tensorboard
