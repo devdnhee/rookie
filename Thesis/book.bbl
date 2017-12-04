@@ -1,0 +1,363 @@
+\begin{thebibliography}{}
+
+\bibitem[lom, 2012]{lomonosov12}
+ (2012).
+\newblock Lomonosov endgame tablebases.
+
+\bibitem[scb, 2016]{scboy16}
+ (2016).
+\newblock From ai to protein folding: Our breakthrough runners-up.
+\newblock
+  http://www.sciencemag.org/news/2016/12/ai-protein-folding-our-breakthrough-runners.
+
+\bibitem[Baird, 1995]{baird95}
+Baird, L. (1995).
+\newblock Residual algorithms: Reinforcement learning with function
+  approximation.
+\newblock In {\em In Proceedings of the Twelfth International Conference on
+  Machine Learning}, pages 30--37. Morgan Kaufmann.
+
+\bibitem[Baxter et~al., 1999]{baxt99}
+Baxter, J., Tridgell, A., and Weaver, L. (1999).
+\newblock Tdleaf(lambda): Combining temporal difference learning with game-tree
+  search.
+\newblock {\em CoRR}, cs.LG/9901001.
+
+\bibitem[Beal, 1990]{beal90}
+Beal, D.~F. (1990).
+\newblock A generalised quiescence search algorithm.
+\newblock {\em Artificial Intelligence}, 43:85--98.
+
+\bibitem[Bengio, 2012]{init}
+Bengio, Y. (2012).
+\newblock Practical recommendations for gradient-based training of deep
+  architectures.
+\newblock {\em CoRR}, abs/1206.5533.
+
+\bibitem[Bertsekas and Shreve, 2007]{bert07}
+Bertsekas, D.~P. and Shreve, S.~E. (2007).
+\newblock {\em Stochastic Optimal Control: The Discrete-Time Case}.
+\newblock Athena Scientific.
+
+\bibitem[Bertsekas and Tsitsiklis, 1996]{bert96}
+Bertsekas, D.~P. and Tsitsiklis, J.~N. (1996).
+\newblock {\em Neuro-Dynamic Programming}.
+\newblock Athena Scientific, 1st edition.
+
+\bibitem[Boureau et~al., 2011]{boureau11}
+Boureau, Y.-L., Le~Roux, N., Bach, F., Ponce, J., and Lecun, Y. (2011).
+\newblock {Ask the locals: multi-way local pooling for image recognition}.
+\newblock In {\em {ICCV'11 - The 13th International Conference on Computer
+  Vision}}, Barcelone, Spain.
+
+\bibitem[Browne and Powley, 2012]{browne12}
+Browne, C. and Powley, E. (2012).
+\newblock {A survey of monte carlo tree search methods}.
+\newblock {\em Intelligence and AI}, 4(1):1--49.
+
+\bibitem[CC, 2017a]{engines}
+CC (2017a).
+\newblock \url{http://www.computerchess.org.uk/ccrl/4040/index.html}.
+\newblock CC 40/40 Rating list.
+
+\bibitem[CC, 2017b]{dataset}
+CC (2017b).
+\newblock \url{http://www.computerchess.org.uk/ccrl/4040/games.html}.
+\newblock 720000 computer games.
+
+\bibitem[Daniel~Edwards, 1961]{edw61}
+Daniel~Edwards, T.~H. (1961).
+\newblock The alpha-beta heuristic.
+\newblock {\em AIM-030}.
+\newblock reprint available from DSpace at MIT.
+
+\bibitem[David et~al., 2016]{David2016}
+David, O.~E., Netanyahu, N.~S., and Wolf, L. (2016).
+\newblock {\em DeepChess: End-to-End Deep Neural Network for Automatic Learning
+  in Chess}, pages 88--96.
+\newblock Springer International Publishing, Cham.
+
+\bibitem[David~Silver, 2016]{alphago16}
+David~Silver, Aja~Huang, C. J. M. e.~a. (2016).
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock {\em Nature}, 529(7587):484--489.
+
+\bibitem[David-Tabibi et~al., 2009]{tabib09}
+David-Tabibi, O., van~den Herik, H.~J., Koppel, M., and Netanyahu, N.~S.
+  (2009).
+\newblock Simulating human grandmasters: evolution and coevolution of
+  evaluation functions.
+\newblock In Rothlauf, F., editor, {\em GECCO}, pages 1483--1490. ACM.
+
+\bibitem[Deng and Yu, 2014]{deng14}
+Deng, L. and Yu, D. (2014).
+\newblock Deep learning: Methods and applications.
+\newblock {\em Found. Trends Signal Process.}, 7(3\&\#8211;4):197--387.
+
+\bibitem[Dewey, 2007]{psych}
+Dewey, R.~A. (2007).
+\newblock Psychology: An introduction.
+
+\bibitem[Duchi et~al., 2011]{duchi11}
+Duchi, J.~C., Hazan, E., and Singer, Y. (2011).
+\newblock Adaptive subgradient methods for online learning and stochastic
+  optimization.
+\newblock {\em Journal of Machine Learning Research}, 12:2121--2159.
+
+\bibitem[FIDE, 2014]{ruleschess}
+FIDE (2014).
+\newblock \url{https://www.fide.com/fide/handbook.html?id=171&view=article}.
+
+\bibitem[Fiekas, 2017]{pychess}
+Fiekas, N. (2017).
+\newblock \url{https://pypi.python.org/pypi/python-chess/0.18.4l}.
+\newblock Python chess library v0.18.4.
+
+\bibitem[Fishburn, 1984]{fishburn84}
+Fishburn, J. (1984).
+\newblock {\em Analysis of speedup in distributed algorithms}.
+\newblock UMI Research Press, Ann Arbor, Mich.
+
+\bibitem[Goodfellow et~al., 2016a]{Goodfellow-et-al-2016}
+Goodfellow, I., Bengio, Y., and Courville, A. (2016a).
+\newblock {\em Deep Learning}.
+\newblock MIT Press.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem[Goodfellow et~al., 2016b]{goodf16}
+Goodfellow, I., Bengio, Y., and Courville, A. (2016b).
+\newblock {\em Deep Learning}.
+\newblock MIT Press.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem[Hyatt, 1999]{hyatt1999}
+Hyatt, R.~M. (1999).
+\newblock Book learning-a methodology to tune an opening book automatically.
+\newblock {\em ICCA JOURNAL}, 22(1):3--12.
+
+\bibitem[John~McCarthy, 1955]{mccarthy55}
+John~McCarthy, Marvin~Minsky, N. R. C.~S. (1955).
+\newblock A proposal for the dartmouth summer research project on artificial
+  intelligence.
+\newblock http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html.
+
+\bibitem[Kamko, 2016]{abpractice}
+Kamko, A. (2016).
+\newblock Alpha-beta pruning practice.
+\newblock
+  \url{http://inst.eecs.berkeley.edu/~cs61b/fa14/ta-materials/apps/ab_tree_practice/}.
+\newblock developed for UC Berkeley.
+
+\bibitem[Kiiski, 2011]{joona11}
+Kiiski, J. (2011).
+\newblock Stockfish's tuning method.
+\newblock \url{http://www.talkchess.com/forum/viewtopic.php?t=40662}.
+
+\bibitem[Kishimoto, 2002]{kishimoto02}
+Kishimoto, A. (2002).
+\newblock Transposition table driven scheduling for two-player games.
+
+\bibitem[Kloetzer, 2011]{Kloetzer2011}
+Kloetzer, J. (2011).
+\newblock {\em Monte-Carlo Opening Books for Amazons}, pages 124--135.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[Korf, 1985]{korf85}
+Korf, R.~E. (1985).
+\newblock Depth-first iterative-deepening: An optimal admissible tree search.
+\newblock {\em Artif. Intell.}, 27(1):97--109.
+
+\bibitem[Krauthammer, 1997]{wstd97}
+Krauthammer, C. (1997).
+\newblock Be afraid.
+\newblock Weekly Standard.
+
+\bibitem[Krizhevsky et~al., ]{kriz10}
+Krizhevsky, A., Sutskever, I., and Hinton, G.~E.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, page
+  2012.
+
+\bibitem[Lai, 2015]{giraffe15}
+Lai, M. (2015).
+\newblock Giraffe: Using deep reinforcement learning to play chess.
+\newblock diploma thesis, Imperial College London.
+
+\bibitem[Levinovitz, 2014]{levin14}
+Levinovitz, A. (2014).
+\newblock The mystery of go, the ancient game that computers still can't win.
+\newblock https://www.wired.com/2014/05/the-world-of-computer-go/.
+
+\bibitem[Lowe, 2004]{lowe04}
+Lowe, D.~G. (2004).
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em Int. J. Comput. Vision}, 60(2):91--110.
+
+\bibitem[Maas et~al., 2014]{maas14}
+Maas, A.~L., Hannun, A.~Y., and Ng, A.~Y. (2014).
+\newblock {Rectifier Nonlinearities Improve Neural Network Acoustic Models}.
+
+\bibitem[Mishkin et~al., 2016]{mishkin16}
+Mishkin, D., Sergievskiy, N., and Matas, J. (2016).
+\newblock Systematic evaluation of {CNN} advances on the imagenet.
+\newblock {\em CoRR}, abs/1606.02228.
+
+\bibitem[Mnih et~al., 2013]{silv13}
+Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra,
+  D., and Riedmiller, M. (2013).
+\newblock Playing atari with deep reinforcement learning.
+\newblock cite arxiv:1312.5602Comment: NIPS Deep Learning Workshop 2013.
+
+\bibitem[Murray~Campbell, 2002]{dblue02}
+Murray~Campbell, Joseph Hoane~Jr, F.-h.~H. (2002).
+\newblock Deep blue.
+\newblock {\em Artificial Intelligence}, 134(1--2):57--83.
+
+\bibitem[Nair and Hinton, 2010]{vinod10}
+Nair, V. and Hinton, G.~E. (2010).
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In {\em Proceedings of International Conference on Machine Learning
+  (ICML)}, pages 807--814.
+
+\bibitem[Omid E.~David, 2016]{deepchess16}
+Omid E.~David, Nathan S.~Netanyahu, L.~W. (2016).
+\newblock Deepchess: End-to-end deep neural network for automatic learning in
+  chess.
+\newblock In Villa~A., Masulli~P., P. R.~A., editor, {\em Artificial Neural
+  Networks and Machine Learning – ICANN 2016}, volume 9887. Springer.
+
+\bibitem[Pearl, 1980]{pearl80}
+Pearl, J. (1980).
+\newblock Scout: A simple game-searching algorithm with proven optimal
+  properties.
+\newblock In {\em Proceedings of the First Annual National Conference on
+  Artificial Intelligence}. Stanford.
+
+\bibitem[Penrose, 2017]{toy}
+Penrose, R. (2017).
+\newblock
+  \url{http://www.telegraph.co.uk/science/2017/03/14/can-solve-chess-problem-holds-key-human-consciousness/}.
+
+\bibitem[Plaat et~al., 1996]{plaat96}
+Plaat, A., Schaeffer, J., Pijls, W., and de~Bruin, A. (1996).
+\newblock Best-first fixed-depth minimax algorithms.
+\newblock {\em Artif. Intell.}, 87(1-2):255--293.
+
+\bibitem[P\v{a}tra\c{s}cu and Thorup, 2012]{patrascu12}
+P\v{a}tra\c{s}cu, M. and Thorup, M. (2012).
+\newblock The power of simple tabulation hashing.
+\newblock {\em J. ACM}, 59(3):14:1--14:50.
+
+\bibitem[Ramanujan et~al., 2011]{rama11}
+Ramanujan, R., Sabharwal, A., and Selman, B. (2011).
+\newblock On the behavior of uct in synthetic search spaces.
+
+\bibitem[Reinefeld, 1989]{reine89}
+Reinefeld, A. (1989).
+\newblock {\em Spielbaum-Suchverfahren}.
+\newblock Number ISBN 3540507426. Springer-Verlag, Berlin.
+
+\bibitem[Reinefeld and Marsland, 1994]{reine94}
+Reinefeld, A. and Marsland, T.~A. (1994).
+\newblock Enhanced iterative-deepening search.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  16(7):701--710.
+
+\bibitem[Riedmiller, 2005]{ried05}
+Riedmiller, M. (2005).
+\newblock Neural fitted q iteration – first experiences with a data efficient
+  neural reinforcement learning method.
+\newblock In {\em In 16th European Conference on Machine Learning}, pages
+  317--328. Springer.
+
+\bibitem[Robert and Casella, 2005]{robert05}
+Robert, C.~P. and Casella, G. (2005).
+\newblock {\em Monte Carlo Statistical Methods (Springer Texts in Statistics)}.
+\newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA.
+
+\bibitem[Robert~Hyatt, 2005]{hashmoveorder05}
+Robert~Hyatt, A.~C. (2005).
+\newblock The effect of hash signature collisions in a chess program.
+\newblock {\em ICGA Journal}, 28(3).
+
+\bibitem[Russel J.~Stuart, 2003]{stuart2003}
+Russel J.~Stuart, P.~N. (2003).
+\newblock {\em Artificial Intelligence: A Modern Approach}.
+\newblock Number ISBN 0-13-790395-2. Prentice Hall, Upper Saddle River, New
+  Jersey, 2nd edition.
+\newblock http:/ / aima. cs. berkeley. edu/.
+
+\bibitem[Saad, 1998]{saad98}
+Saad, D. (1998).
+\newblock {\em On-line learning in neural networks}.
+\newblock Cambridge University Press, Cambridge England New York.
+
+\bibitem[Samuel, 1959]{samuel59}
+Samuel, A.~L. (1959).
+\newblock Some studies in machine learning using the game of checkers.
+\newblock {\em {IBM} Journal of Research and Development}, 3(3):210--229.
+
+\bibitem[Schaeffer et~al., 1996]{chinook}
+Schaeffer, J., Lake, R., Lu, P., and Bryant, M. (1996).
+\newblock {CHINOOK}: {T}he world man-machine checkers champion.
+\newblock {\em The {AI} Magazine}, 16(1):21--29.
+
+\bibitem[Shannon, 1950]{shann50}
+Shannon, C.~E. (1950).
+\newblock Programming a computer for playing chess.
+\newblock {\em Philosophical Magazine}, 41(314).
+
+\bibitem[Sutskever et~al., 2012]{sutskever12}
+Sutskever, I., Martens, J., Dahl, G., and Hinton, G. (2012).
+\newblock On the importance of initialization and momentum in deep learning.
+
+\bibitem[Sutton and Barto, 1998]{sutton98}
+Sutton, R.~S. and Barto, A.~G. (1998).
+\newblock {\em Introduction to Reinforcement Learning}.
+\newblock MIT Press, Cambridge, MA, USA, 1st edition.
+
+\bibitem[Sutton et~al., 2000]{sutton00}
+Sutton, R.~S., Mcallester, D., Singh, S., and Mansour, Y. (2000).
+\newblock Policy gradient methods for reinforcement learning with function
+  approximation.
+\newblock In {\em In Advances in Neural Information Processing Systems 12},
+  pages 1057--1063. MIT Press.
+
+\bibitem[Szepesv{\'a}ri, 2010]{szepe10}
+Szepesv{\'a}ri, C. (2010).
+\newblock {\em Algorithms for Reinforcement Learning}.
+\newblock Morgan {\&} Claypool.
+
+\bibitem[Tesauro, 1995]{tdgammon95}
+Tesauro, G. (1995).
+\newblock Temporal difference learning and td-gammon.
+\newblock {\em Communications of the ACM}, 38(3):58--68.
+
+\bibitem[Turing, 1953]{tur53}
+Turing, A. (1953).
+\newblock Chess.
+\newblock {\em Digital Computers Applied to Games}.
+
+\bibitem[Van~den Heede, 2017]{rookie}
+Van~den Heede, D. (2017).
+\newblock
+  \url{https://github.ugent.be/devdnhee/warrior-chess-bot/tree/master/rookie}.
+
+\bibitem[van~den Herik, 2002]{nnmovemap02}
+van~den Herik, L. K. W. H. M. U.~P. (2002).
+\newblock The neural movemap heuristic in chess.
+\newblock {\em Computers and Games}, 2883:154--170.
+
+\bibitem[Veness et~al., 2009]{veness09}
+Veness, J., Silver, D., Blair, A., and Uther, W. (2009).
+\newblock Bootstrapping from game tree search.
+\newblock In Bengio, Y., Schuurmans, D., Lafferty, J.~D., Williams, C. K.~I.,
+  and Culotta, A., editors, {\em Advances in Neural Information Processing
+  Systems 22}, pages 1937--1945. Curran Associates, Inc.
+
+\bibitem[Wang et~al., 2015]{dddqn15}
+Wang, Z., de~Freitas, N., and Lanctot, M. (2015).
+\newblock Dueling network architectures for deep reinforcement learning.
+\newblock {\em CoRR}, abs/1511.06581.
+
+\end{thebibliography}

@@ -1,0 +1,46 @@
+\select@language {dutch}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Search tree}}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Importance quiescence search}}{10}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Mate in 549}}{13}{figure.caption.15}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Toy example}}{15}{figure.caption.17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces General \gls {fnn} architecture}}{18}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Hidden units}}{19}{figure.caption.21}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Connections \gls {fnn} and \gls {cnn}}}{24}{figure.caption.28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Convolutional layer flow diagram\relax }}{24}{figure.caption.30}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \gls {rl} paradigm}}{25}{figure.caption.31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Chess Position}}{36}{figure.caption.39}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Network architecture value function}}{37}{figure.caption.41}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison between TD-root($\lambda $) and TD($\lambda $)}}{43}{figure.caption.42}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces TD-leaf($\lambda $)}}{44}{figure.caption.43}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces TD-stem($\lambda $)}}{45}{figure.caption.44}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \gls {mcts}}}{46}{figure.caption.45}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces AlphaGo}}{47}{figure.caption.46}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Two examples leading to bad $MC$ evaluations.\relax }}{50}{figure.caption.47}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces learning curve}}{52}{figure.caption.48}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces End games}}{57}{figure.caption.50}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces High level software architecture of the simulation system.\relax }}{62}{figure.caption.59}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \gls {nn} used in the first experiment}}{64}{figure.caption.60}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Learning curve experiment 1}}{65}{figure.caption.63}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Performance comparison between TD-Stem($\lambda $) and TD-Leaf($\lambda $) experiment 1}}{66}{figure.caption.64}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces value curve experiment 1}}{67}{figure.caption.65}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces \gls {cnn} architecture deployed in experiment 2}}{69}{figure.caption.67}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Learning curve of the second experiment}}{70}{figure.caption.68}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Performance comparison between TD-Stem($\lambda $) and TD-Leaf($\lambda $)}}{71}{figure.caption.70}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Value curves experiment 2}}{72}{figure.caption.71}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \gls {cnn} architecture deployed in experiment 2}}{72}{figure.caption.72}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Chessboard layout}}{82}{figure.caption.78}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Piece mobility}}{83}{figure.caption.79}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Chess starting position}}{84}{figure.caption.80}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Special chess positions\relax }}{85}{figure.caption.81}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Castling}}{86}{figure.caption.82}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces En passant capture}}{86}{figure.caption.83}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Promotion}}{87}{figure.caption.84}

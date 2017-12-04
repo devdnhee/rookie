@@ -1,0 +1,660 @@
+\ifglsentryexists{ai}{}%
+{%
+\gls@defglossaryentry{ai}%
+{%
+name={AI},%
+sort={AI},%
+type={acronym},%
+first={Artificial Intelligence (AI)},%
+firstplural={Artificial Intelligences(AIs)},%
+text={AI},%
+plural={AIs},%
+description={Artificial Intelligence},%
+descriptionplural={Artificial Intelligence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Artificial Intelligence},%
+longplural={Artificial Intelligences},%
+short={AI},%
+shortplural={AIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rl}{}%
+{%
+\gls@defglossaryentry{rl}%
+{%
+name={RL},%
+sort={RL},%
+type={acronym},%
+first={reinforcement learning (RL)},%
+firstplural={reinforcement learnings(RLs)},%
+text={RL},%
+plural={RLs},%
+description={reinforcement learning},%
+descriptionplural={reinforcement learning\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={reinforcement learning},%
+longplural={reinforcement learnings},%
+short={RL},%
+shortplural={RLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ml}{}%
+{%
+\gls@defglossaryentry{ml}%
+{%
+name={ML},%
+sort={ML},%
+type={acronym},%
+first={machine learning (ML)},%
+firstplural={machine learnings(MLs)},%
+text={ML},%
+plural={MLs},%
+description={machine learning},%
+descriptionplural={machine learning\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={machine learning},%
+longplural={machine learnings},%
+short={ML},%
+shortplural={MLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nn}{}%
+{%
+\gls@defglossaryentry{nn}%
+{%
+name={NN},%
+sort={NN},%
+type={acronym},%
+first={neural network (NN)},%
+firstplural={neural networks(NNs)},%
+text={NN},%
+plural={NNs},%
+description={neural network},%
+descriptionplural={neural network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={neural network},%
+longplural={neural networks},%
+short={NN},%
+shortplural={NNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ann}{}%
+{%
+\gls@defglossaryentry{ann}%
+{%
+name={ANN},%
+sort={ANN},%
+type={acronym},%
+first={artificial neural network (ANN)},%
+firstplural={artificial neural networks(ANNs)},%
+text={ANN},%
+plural={ANNs},%
+description={artificial neural network},%
+descriptionplural={artificial neural network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={artificial neural network},%
+longplural={artificial neural networks},%
+short={ANN},%
+shortplural={ANNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fnn}{}%
+{%
+\gls@defglossaryentry{fnn}%
+{%
+name={FNN},%
+sort={FNN},%
+type={acronym},%
+first={feedforward neural network (FNN)},%
+firstplural={feedforward neural networks(FNNs)},%
+text={FNN},%
+plural={FNNs},%
+description={feedforward neural network},%
+descriptionplural={feedforward neural network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={feedforward neural network},%
+longplural={feedforward neural networks},%
+short={FNN},%
+shortplural={FNNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cnn}{}%
+{%
+\gls@defglossaryentry{cnn}%
+{%
+name={CNN},%
+sort={CNN},%
+type={acronym},%
+first={convolutional neural network (CNN)},%
+firstplural={convolutional neural networks(CNNs)},%
+text={CNN},%
+plural={CNNs},%
+description={convolutional neural network},%
+descriptionplural={convolutional neural network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={convolutional neural network},%
+longplural={convolutional neural networks},%
+short={CNN},%
+shortplural={CNNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fcn}{}%
+{%
+\gls@defglossaryentry{fcn}%
+{%
+name={FCN},%
+sort={FCN},%
+type={acronym},%
+first={fully connected network (FCN)},%
+firstplural={fully connected networks(FCNs)},%
+text={FCN},%
+plural={FCNs},%
+description={fully connected network},%
+descriptionplural={fully connected network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={fully connected network},%
+longplural={fully connected networks},%
+short={FCN},%
+shortplural={FCNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mse}{}%
+{%
+\gls@defglossaryentry{mse}%
+{%
+name={MSE},%
+sort={MSE},%
+type={acronym},%
+first={mean squared error (MSE)},%
+firstplural={mean squared errors(MSEs)},%
+text={MSE},%
+plural={MSEs},%
+description={mean squared error},%
+descriptionplural={mean squared error\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={mean squared error},%
+longplural={mean squared errors},%
+short={MSE},%
+shortplural={MSEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mc}{}%
+{%
+\gls@defglossaryentry{mc}%
+{%
+name={MC},%
+sort={MC},%
+type={acronym},%
+first={Monte Carlo (MC)},%
+firstplural={Monte Carlos(MCs)},%
+text={MC},%
+plural={MCs},%
+description={Monte Carlo},%
+descriptionplural={Monte Carlo\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Monte Carlo},%
+longplural={Monte Carlos},%
+short={MC},%
+shortplural={MCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{td}{}%
+{%
+\gls@defglossaryentry{td}%
+{%
+name={TD},%
+sort={TD},%
+type={acronym},%
+first={temporal difference (TD)},%
+firstplural={temporal differences(TDs)},%
+text={TD},%
+plural={TDs},%
+description={temporal difference},%
+descriptionplural={temporal difference\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={temporal difference},%
+longplural={temporal differences},%
+short={TD},%
+shortplural={TDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sgd}{}%
+{%
+\gls@defglossaryentry{sgd}%
+{%
+name={SGD},%
+sort={SGD},%
+type={acronym},%
+first={stochastic gradient descent (SGD)},%
+firstplural={stochastic gradient descents(SGDs)},%
+text={SGD},%
+plural={SGDs},%
+description={stochastic gradient descent},%
+descriptionplural={stochastic gradient descent\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={stochastic gradient descent},%
+longplural={stochastic gradient descents},%
+short={SGD},%
+shortplural={SGDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pv}{}%
+{%
+\gls@defglossaryentry{pv}%
+{%
+name={PV},%
+sort={PV},%
+type={acronym},%
+first={principal variation (PV)},%
+firstplural={principal variations(PVs)},%
+text={PV},%
+plural={PVs},%
+description={principal variation},%
+descriptionplural={principal variation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={principal variation},%
+longplural={principal variations},%
+short={PV},%
+shortplural={PVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mcts}{}%
+{%
+\gls@defglossaryentry{mcts}%
+{%
+name={MCTS},%
+sort={MCTS},%
+type={acronym},%
+first={Monte Carlo tree search (MCTS)},%
+firstplural={Monte Carlo tree searchs(MCTSs)},%
+text={MCTS},%
+plural={MCTSs},%
+description={Monte Carlo tree search},%
+descriptionplural={Monte Carlo tree search\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Monte Carlo tree search},%
+longplural={Monte Carlo tree searchs},%
+short={MCTS},%
+shortplural={MCTSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ddqn}{}%
+{%
+\gls@defglossaryentry{ddqn}%
+{%
+name={DDQN},%
+sort={DDQN},%
+type={acronym},%
+first={double deep Q-network (DDQN)},%
+firstplural={double deep Q-networks(DDQNs)},%
+text={DDQN},%
+plural={DDQNs},%
+description={double deep Q-network},%
+descriptionplural={double deep Q-network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={double deep Q-network},%
+longplural={double deep Q-networks},%
+short={DDQN},%
+shortplural={DDQNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mcvi}{}%
+{%
+\gls@defglossaryentry{mcvi}%
+{%
+name={MCVI},%
+sort={MCVI},%
+type={acronym},%
+first={Monte Carlo value initialization (MCVI)},%
+firstplural={Monte Carlo value initializations(MCVIs)},%
+text={MCVI},%
+plural={MCVIs},%
+description={Monte Carlo value initialization},%
+descriptionplural={Monte Carlo value initialization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Monte Carlo value initialization},%
+longplural={Monte Carlo value initializations},%
+short={MCVI},%
+shortplural={MCVIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pvs}{}%
+{%
+\gls@defglossaryentry{pvs}%
+{%
+name={PVS},%
+sort={PVS},%
+type={acronym},%
+first={principal variation search (PVS)},%
+firstplural={principal variation searchs(PVSs)},%
+text={PVS},%
+plural={PVSs},%
+description={principal variation search},%
+descriptionplural={principal variation search\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={principal variation search},%
+longplural={principal variation searchs},%
+short={PVS},%
+shortplural={PVSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{qs}{}%
+{%
+\gls@defglossaryentry{qs}%
+{%
+name={QS},%
+sort={QS},%
+type={acronym},%
+first={quiescence search (QS)},%
+firstplural={quiescence searchs(QSs)},%
+text={QS},%
+plural={QSs},%
+description={quiescence search},%
+descriptionplural={quiescence search\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={quiescence search},%
+longplural={quiescence searchs},%
+short={QS},%
+shortplural={QSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dtm}{}%
+{%
+\gls@defglossaryentry{dtm}%
+{%
+name={DTM},%
+sort={DTM},%
+type={acronym},%
+first={depth to mate (DTM)},%
+firstplural={depth to mates(DTMs)},%
+text={DTM},%
+plural={DTMs},%
+description={depth to mate},%
+descriptionplural={depth to mate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={depth to mate},%
+longplural={depth to mates},%
+short={DTM},%
+shortplural={DTMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{relu}{}%
+{%
+\gls@defglossaryentry{relu}%
+{%
+name={ReLU},%
+sort={ReLU},%
+type={acronym},%
+first={Rectifier Linear Unit (ReLU)},%
+firstplural={Rectifier Linear Units(ReLUs)},%
+text={ReLU},%
+plural={ReLUs},%
+description={Rectifier Linear Unit},%
+descriptionplural={Rectifier Linear Unit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Rectifier Linear Unit},%
+longplural={Rectifier Linear Units},%
+short={ReLU},%
+shortplural={ReLUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mdp}{}%
+{%
+\gls@defglossaryentry{mdp}%
+{%
+name={MDP},%
+sort={MDP},%
+type={acronym},%
+first={Markov decision process (MDP)},%
+firstplural={Markov decision processs(MDPs)},%
+text={MDP},%
+plural={MDPs},%
+description={Markov decision process},%
+descriptionplural={Markov decision process\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Markov decision process},%
+longplural={Markov decision processs},%
+short={MDP},%
+shortplural={MDPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{evmc}{}%
+{%
+\gls@defglossaryentry{evmc}%
+{%
+name={EVMC},%
+sort={EVMC},%
+type={acronym},%
+first={every visit Monte Carlo (EVMC)},%
+firstplural={every visit Monte Carlos(EVMCs)},%
+text={EVMC},%
+plural={EVMCs},%
+description={every visit Monte Carlo},%
+descriptionplural={every visit Monte Carlo\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={every visit Monte Carlo},%
+longplural={every visit Monte Carlos},%
+short={EVMC},%
+shortplural={EVMCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

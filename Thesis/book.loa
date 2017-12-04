@@ -1,0 +1,10 @@
+\contentsline {algorithm}{\numberline {1}{\ignorespaces Minimax\relax }}{6}{algorithm.1}
+\contentsline {algorithm}{\numberline {2}{\ignorespaces $\alpha \beta $Minimax\relax }}{7}{algorithm.2}
+\contentsline {algorithm}{\numberline {3}{\ignorespaces PVS\relax }}{9}{algorithm.3}
+\contentsline {algorithm}{\numberline {4}{\ignorespaces Minibatch stochastic gradient descent\relax }}{21}{algorithm.4}
+\contentsline {algorithm}{\numberline {5}{\ignorespaces Episodical EMVC\relax }}{28}{algorithm.5}
+\contentsline {algorithm}{\numberline {6}{\ignorespaces TD(0)\relax }}{29}{algorithm.6}
+\contentsline {algorithm}{\numberline {7}{\ignorespaces Tabular TD($\lambda $)\relax }}{30}{algorithm.7}
+\contentsline {algorithm}{\numberline {8}{\ignorespaces supervised TD algorithm\relax }}{42}{algorithm.8}
+\contentsline {algorithm}{\numberline {9}{\ignorespaces Monte Carlo Value Initialization\relax }}{49}{algorithm.9}
+\contentsline {algorithm}{\numberline {10}{\ignorespaces $\alpha \beta $-Result\relax }}{56}{algorithm.10}

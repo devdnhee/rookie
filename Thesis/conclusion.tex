@@ -1,0 +1,24 @@
+\chapter{Conclusion}
+\label{ch:conclusion}
+
+\subsubsection*{Summary}
+Conventional chess engines evaluate boards with game tree search and fast static evaluations at leaf nodes. The height of the search tree is the most crucial factor for their performance, which is why this trait has been extensively optimized. The static evaluations are carefully designed heuristics based on expert knowledge provided by humanity. Chess computers are so much stronger than humans because they use what we know about chess in a nearly perfected manner.\\
+
+One might learn more about chess itself if machines were able to teach chess to themselves objectively. The machine learning tool that may help with these kind of problems is deep \acrlong{rl}, due to its recent successes in \textit{Atari} games and \textit{go}, where feature maps are learned from sensory input data like images or bitboards.\\
+
+The first contribution of this thesis is that it provides techniques and algorithms for how chess can be fit in a deep \gls{rl} framework. An unbiased static evaluation function is designed with a \acrlong{cnn}. Chess positions are vectorized to bitboards only representing chess rules and visuals of the board. These bitboards are subsequently the input of the \glsnamefont{cnn}. Multiple algorithms like TD learning, bootstrapping tree search, \acrlong{mcts} and policy networks have been addressed to learn the neural network through self play. An issue that every previous attempt to use \gls{rl} in chess has solved with expert knowledge, is the network initialization issue. We have brought forward an algorithm, \acrlong{mcvi}, that tries to initialize a network objectively by exploration.\\
+
+We decided to focus the experiments on the comparison between two TD learning algorithms: TD-Leaf($\lambda$) and TD-Stem($\lambda$). The experiments show how TD-Stem($\lambda$) learns faster in these environments than the state of the art algorithm. We provided two possible reasons why TD-Stem outperforms TD-Leaf in our experiments:
+\begin{enumerate}
+\item The influence of positive rewards propagates faster in updates, because depth plays a fundamental part to the learned value function at the states and their leaf nodes and so on.
+\item The wrong belief effect in TD-Leaf($\lambda$), where the actual outcome of a simulation may influence states that should not take any credit, slows down learning
+\end{enumerate}
+When trying to generalize the experiments and using deeper networks, we observed how the resulting level of the trained models was bad. This was explained by a lack of sensible data to reach enough generalization for the deep network to learn.
+
+\subsubsection*{Future Work}
+This work leaves many options open for future research. First of all, it may be interesting if someone would extend the research in this book to bigger end games, by learning models from the bottom up, i.e first training models on boards with less pieces and gradually increasing the number of pieces on the board. \\
+
+Furthermore, if anyone has the time and/or more specialized hardware to its disposal with cloud computing for example (simulations were proven to be very time consuming) larger networks with more bitboard channels as input may be trained. We have the feeling that the optimal value function in chess needs a network with many connections.\\
+Another thing to try in future research is the initialization of the value function with tablebases or \gls{mcvi}, as they are objective ways to do so.\\
+
+A last valuable research direction, even though we think it may not be suitable for chess; is \gls{mcts}, optionally in a hybrid with TD-learning. The same thing can be said for policy networks, we think they may be hard to set up and train, but it could be possible. In this research, the policy was limited to decaying $\epsilon$-greedy, but the encoding of actions in policy gradient \gls{rl} learning has shown its merits in games in the past. The same thing could be true for chess. 

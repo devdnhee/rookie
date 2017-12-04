@@ -1,0 +1,234 @@
+%
+%  THESISBOEK
+%
+%  Dit bestand zorgt voor algemene (layout)definities, en groepeert de
+%  afzonderlijke LaTeX-files tot een geheel.
+%
+%  @author Erwin Six, David De Reu, Brecht Vermeulen
+%
+
+\documentclass[12pt,a4paper,oneside,notitlepage]{book}
+\usepackage[english,dutch]{babel}
+
+\usepackage{subfiles}
+\usepackage{fancyhdr}
+\usepackage{graphicx,array, blindtext}
+\usepackage{apalike}
+\usepackage{pdfpages}
+\usepackage{algorithmic}
+%\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[acronym,xindy,style=super, nonumberlist]{glossaries}
+\usepackage{tikz}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{bbm}
+\usepackage{amsmath}
+\usepackage{varwidth}
+
+\usetikzlibrary{automata}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{shapes, arrows, shadows, positioning, backgrounds}
+\usetikzlibrary{trees}
+
+\definecolor{darkolivegreen}{rgb}{0.33, 0.42, 0.18}
+\definecolor{officegreen}{rgb}{0.0, 0.5, 0.0}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\renewcommand{\algorithmiccomment}[1]{\textcolor{officegreen}{// #1}}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+% \usepackage[colorlinks]{hyperref}
+
+% marges aanpassen
+% (opmerking: moet *voor* inclusie van fancyhdr package komen)
+\setlength{\hoffset}{-1in}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{2cm}
+\setlength{\headheight}{0.5cm}
+\setlength{\headsep}{1cm}
+\setlength{\oddsidemargin}{3.5cm}
+\setlength{\evensidemargin}{3.5cm}
+\setlength{\textwidth}{16cm}
+\setlength{\textheight}{23.3cm}
+\setlength{\footskip}{1.5cm}
+\setlength{\parindent}{0pt} % No indentation at the beginning of a paragraph
+\setlist{noitemsep}
+
+\pagestyle{fancy}
+
+\tikzstyle{state}=[shape=circle,draw=black!50,scale=2.0]
+\tikzstyle{staterect}=[shape=rectangle,draw=black!50]
+\tikzstyle{state_small}=[shape=circle,draw=black!50,scale=1.5]
+\tikzstyle{state2}=[minimum width=8pt,shape=circle,draw=blue!50,fill=blue!20]
+\tikzstyle{observation}=[shape=rectangle,draw=orange!50,fill=orange!20]
+\tikzstyle{lightedge}=[<-,dotted]
+\tikzstyle{mainstate}=[state,thick]
+\tikzstyle{mainedge}=[<-,thick]
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{example}{Example}
+
+\newcommand{\npar}{\vspace{0.5cm} \par \noindent}
+\renewcommand{\chaptermark}[1]{\markright{\MakeUppercase{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection~#1}}
+
+\newcommand{\headerfmt}[1]{\textsl{\textsf{#1}}}
+\newcommand{\headerfmtpage}[1]{\textsf{#1}}
+\renewcommand{\glsnamefont}[1]{\textbf{#1}}
+
+\fancyhf{}
+\fancyhead[LE,RO]{\headerfmtpage{\thepage}}
+\fancyhead[LO]{\headerfmt{\rightmark}}
+\fancyhead[RE]{\headerfmt{\leftmark}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{ % eerste bladzijde van een hoofdstuk
+  \fancyhf{}
+  \fancyhead[LE,RO]{\headerfmtpage{\thepage}}
+  \fancyhead[LO]{\headerfmt{\rightmark}}
+  \fancyhead[RE]{\headerfmt{\leftmark}}
+  \renewcommand{\headrulewidth}{0.5pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% anderhalve interlinie (opm: titelblad gaat uit van 1.5)
+\renewcommand{\baselinestretch}{1.19}
+
+
+
+% indien LaTeX niet goed splitst, neem je woord hierin op, of evt om splitsen 
+% te voorkomen
+\hyphenation{ditmagnooitgesplitstworden dit-woord-splitst-hier}
+
+\makeglossaries
+\makeglossary
+\loadglsentries{acronyms}
+
+\begin{document}
+
+\selectlanguage{english}
+
+% titelblad (voor kaft)
+%\include{title}
+
+\setlength{\voffset}{0in}
+\setlength{\hoffset}{0in}
+\includepdf[pages={1}]{title_thesis.pdf}
+\include{shakespeare}
+\includepdf[pages={1}]{title_thesis.pdf}
+\setlength{\voffset}{-1in}
+\setlength{\hoffset}{-1in}
+
+% lege pagina (!!)
+
+% titelblad (!!)
+
+% geen paginanummering tot we aan de inhoudsopgave komen
+\pagestyle{empty}
+
+% voorwoord met dankwoord en toelating tot bruikleen (ondertekend)
+%\include{preface}
+
+% overzicht
+%\include{cover}
+
+\pagestyle{fancy}
+\frontmatter
+\include{shakespeare}
+\addcontentsline{toc}{chapter}{Preface}
+\include{preface}
+
+\addcontentsline{toc}{chapter}{Abstract}
+\include{abstract}
+
+\setlength{\voffset}{0cm}
+\setlength{\hoffset}{0cm}
+
+%\addcontentsline{toc}{chapter}{Abstract}
+%\includepdf[pages=-]{abstract.pdf}
+\addcontentsline{toc}{chapter}{Extended abstract}
+\includepdf[pages=-,width=\textwidth]{abstracts/abstract.pdf}
+
+\setlength{\voffset}{-1in}
+\setlength{\hoffset}{-1in}
+
+
+% inhoudstafel
+\tableofcontents
+
+\newpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\newpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\newpage
+\addcontentsline{toc}{chapter}{List of Algorithms}
+\listofalgorithms
+
+\glsaddall
+\printglossary[type=\acronymtype]
+
+% opmaak voor het eigenlijke boek; onderstaande lijnen
+% weglaten als de eerste regel van een nieuwe alinea moet
+% inspringen in plaats van extra tussenruimte
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{0.5\baselineskip plus 0.5ex minus 0.2ex}
+%\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+% hoofdstukken
+\mainmatter
+
+% hier worden de hoofdstukken ingevoegd (\includes)
+\include{1_introduction}
+
+\include{conventional_chess_engines}
+
+\include{background}
+
+\include{drl_games}
+
+\include{Experiments}
+
+\include{results}
+
+\include{conclusion}
+
+\newpage
+\addcontentsline{toc}{chapter}{References}
+\include{bibliography}
+
+
+% appendices
+\appendix
+
+\include{chess}
+%\include{specs}
+
+
+\backmatter
+
+% eventueel: lijst van figuren en tabellen
+%\listoffigures
+%\listoftables
+
+% lege pagina (!!)
+
+% kaft
+
+\end{document}

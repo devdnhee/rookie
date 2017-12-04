@@ -1,0 +1,85 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: book.aux
+A level-1 auxiliary file: shakespeare.aux
+Already encountered file shakespeare.aux
+---line 36 of file book.aux
+ : \@input{shakespeare.aux
+ :                        }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: 1_introduction.aux
+A level-1 auxiliary file: conventional_chess_engines.aux
+A level-1 auxiliary file: background.aux
+A level-1 auxiliary file: drl_games.aux
+A level-1 auxiliary file: Experiments.aux
+A level-1 auxiliary file: results.aux
+A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: bibliography.aux
+The style file: apalike.bst
+A level-1 auxiliary file: chess.aux
+Database file #1: references.bib
+Repeated entry---line 91 of file references.bib
+ : @article{tdgammon95
+ :                    ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "tabib09"
+refers to entry "conf/gecco/2009g", which doesn't exist
+Warning--I didn't find a database entry for "conf/gecco/2009g"
+Warning--to sort, need author or key in scboy16
+Too many commas in name 1 of "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon" for entry mccarthy55
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon" for entry mccarthy55
+while executing---line 1023 of file apalike.bst
+Warning--to sort, need author or key in lomonosov12
+Warning--can't use both author and editor fields in David2016
+Too many commas in name 1 of "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon" for entry mccarthy55
+while executing---line 1098 of file apalike.bst
+Warning--can't use both author and editor fields in Kloetzer2011
+Warning--empty year in kriz10
+Warning--empty journal in maas14
+Warning--there's a number but no series in reine89
+Warning--there's a number but no series in stuart2003
+You've used 67 entries,
+            1935 wiz_defined-function locations,
+            854 strings with 13352 characters,
+and the built_in function-call counts, 23124 in all, are:
+= -- 2309
+> -- 792
+< -- 59
++ -- 267
+- -- 251
+* -- 1753
+:= -- 4090
+add.period$ -- 206
+call.type$ -- 67
+change.case$ -- 442
+chr.to.int$ -- 65
+cite$ -- 77
+duplicate$ -- 979
+empty$ -- 1654
+format.name$ -- 334
+if$ -- 4562
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 61
+newline$ -- 334
+num.names$ -- 201
+pop$ -- 412
+preamble$ -- 1
+purify$ -- 457
+quote$ -- 0
+skip$ -- 749
+stack$ -- 0
+substring$ -- 1435
+swap$ -- 135
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 376
+warning$ -- 8
+while$ -- 184
+width$ -- 0
+write$ -- 849
+(There were 6 error messages)

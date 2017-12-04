@@ -1,0 +1,22 @@
+\select@language {dutch}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparison $\alpha \beta $-pruning and regular minimax}}{8}{table.caption.12}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Strongest chess engines}}{14}{table.caption.16}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison between activation functions}}{20}{table.caption.23}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Bitboards}}{36}{table.caption.40}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Hyper-parameters modifiable in between stages.\relax }}{60}{table.caption.58}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Hyper-parameters of the stages in Experiment 1\relax }}{65}{table.caption.61}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Performance comparison TD-Leaf($\lambda $) and TD-Stem($\lambda $)\relax }}{65}{table.caption.62}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Hyper-parameters of the stages in Experiment 2\relax }}{68}{table.caption.66}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Performance comparison TD-Leaf($\lambda $) and TD-Stem($\lambda $)\relax }}{69}{table.caption.69}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Hyper-parameters of the stages in Experiment 2\relax }}{71}{table.caption.73}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Performance of the trained model in experiment.\relax }}{73}{table.caption.74}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Glossary with chess terms\relax }}{88}{table.caption.85}
