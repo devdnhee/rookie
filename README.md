@@ -2,25 +2,18 @@
 
 ## Requirements
 - Python2.7
-- python-chess
-- numpy
-- tensorflow
+- pip
 
 ## Installation
 `git clone https://github.com/devdnhee/rookie/`
 
-`cd mychessmoves; sudo python setup.py install; cd ..`
+Go to the directory and execute
 
-`sudo apt-get install liblzma-dev libpython2.7-dev;
-pip install backports.lzma`
+`sudo python setup.py install`
 
-`wget https://sites.google.com/site/gaviotachessengine/download/gaviota-1.0-linux.tar.gz`
-`gunzip gaviota-1.0-linux.tar.gz`
-`tar -xvf gaviota-1.0-linux.tar`
-`mkdir Gaviota`
-`mv gaviota-1.0-linux/gtb/* Gaviota`
-`rm -r gaviota-1.0-linux`
+Afterwards, download and extract the zipfile from https://drive.google.com/open?id=1eAZUC8NeWIk4l1UU8HVeL4HjnC0g9hsY and store the datasets (.epd file format) in the folder `dataset/`.
 
-download and extract the zipfile from https://drive.google.com/open?id=1eAZUC8NeWIk4l1UU8HVeL4HjnC0g9hsY
+Test by executing
+`python sim.py test -N 100 -I 2 -d 1`
 
-`mkdir Models`
+which runs a new (small) simulation by letting the untrained engine play games against itself until it gained enough victories to learn something with SGD. It does this twice.
