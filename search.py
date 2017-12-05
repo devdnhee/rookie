@@ -259,8 +259,10 @@ for i in xrange(len(pieces)):
     PIECE_MAP[pieces[i]]=i
 
 def zobrist_array():
+    # deprecated: not part of chess v22
     import chess
-    return chess.POLYGLOT_RANDOM_ARRAY
+    #return chess.POLYGLOT_RANDOM_ARRAY
+    return []
 
 ZOB=zobrist_array()
 
